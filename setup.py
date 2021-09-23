@@ -59,6 +59,7 @@ setup(
     entry_points={
         'flask.commands': [
             'shell=flask_shell_ptpython:shell_command',
+            'ptpython=flask_shell_ptpython:shell_command',
         ],
     },
     classifiers=[
